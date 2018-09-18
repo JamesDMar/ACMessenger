@@ -6,6 +6,6 @@ app.get('/', function(req, res){
 
 });
 
-http.listen(8443, function(){
+http.listen(80, function(){
     console.log('listening on *:80');
 });
